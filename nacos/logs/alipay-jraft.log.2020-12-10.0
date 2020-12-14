@@ -1,0 +1,120 @@
+2020-12-10 21:58:08,006 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2020-12-10 21:58:08,066 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2020-12-10 21:58:08,188 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2020-12-10 21:58:08,189 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2020-12-10 21:58:08,189 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2020-12-10 21:58:08,192 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2020-12-10 21:58:08,198 INFO The number of active nodes increment to 1.
+
+2020-12-10 21:58:08,662 INFO Starts FSMCaller successfully.
+
+2020-12-10 21:58:08,670 WARN No data for snapshot reader /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot.
+
+2020-12-10 21:58:08,688 INFO Node <naming_instance_metadata/192.168.0.102:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 21:58:08,690 INFO Node <naming_instance_metadata/192.168.0.102:7848> start vote and grant vote self, term=0.
+
+2020-12-10 21:58:08,767 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=1, votedFor=192.168.0.102:7848, cost time=70 ms
+
+2020-12-10 21:58:08,767 INFO Node <naming_instance_metadata/192.168.0.102:7848> become leader of group, term=1, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 21:58:08,770 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2020-12-10 21:58:08,773 WARN RPC server is not started in RaftGroupService.
+
+2020-12-10 21:58:08,773 INFO Start the RaftGroupService successfully.
+
+2020-12-10 21:58:08,778 INFO The number of active nodes increment to 2.
+
+2020-12-10 21:58:08,780 INFO onLeaderStart: term=1.
+
+2020-12-10 21:58:08,816 INFO Starts FSMCaller successfully.
+
+2020-12-10 21:58:08,816 WARN No data for snapshot reader /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot.
+
+2020-12-10 21:58:08,818 INFO Node <naming_service_metadata/192.168.0.102:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 21:58:08,818 INFO Node <naming_service_metadata/192.168.0.102:7848> start vote and grant vote self, term=0.
+
+2020-12-10 21:58:08,851 WARN Channel in TRANSIENT_FAILURE state: 192.168.0.102:7848.
+
+2020-12-10 21:58:08,851 WARN Channel in SHUTDOWN state: 192.168.0.102:7848.
+
+2020-12-10 21:58:08,908 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=1, votedFor=192.168.0.102:7848, cost time=89 ms
+
+2020-12-10 21:58:08,908 INFO Node <naming_service_metadata/192.168.0.102:7848> become leader of group, term=1, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 21:58:08,908 WARN RPC server is not started in RaftGroupService.
+
+2020-12-10 21:58:08,908 INFO Start the RaftGroupService successfully.
+
+2020-12-10 21:58:08,909 INFO onLeaderStart: term=1.
+
+2020-12-10 22:35:16,109 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2020-12-10 22:35:16,171 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2020-12-10 22:35:16,306 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2020-12-10 22:35:16,307 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2020-12-10 22:35:16,307 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2020-12-10 22:35:16,310 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2020-12-10 22:35:16,316 INFO The number of active nodes increment to 1.
+
+2020-12-10 22:35:16,799 INFO Starts FSMCaller successfully.
+
+2020-12-10 22:35:16,807 WARN No data for snapshot reader /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot.
+
+2020-12-10 22:35:16,807 INFO Node <naming_instance_metadata/192.168.0.102:7848> target priority value has changed from: 0, to: -1.
+
+2020-12-10 22:35:16,826 INFO Node <naming_instance_metadata/192.168.0.102:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 22:35:16,828 INFO Node <naming_instance_metadata/192.168.0.102:7848> start vote and grant vote self, term=1.
+
+2020-12-10 22:35:16,898 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=2, votedFor=192.168.0.102:7848, cost time=62 ms
+
+2020-12-10 22:35:16,899 INFO Node <naming_instance_metadata/192.168.0.102:7848> become leader of group, term=2, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 22:35:16,900 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2020-12-10 22:35:16,902 WARN RPC server is not started in RaftGroupService.
+
+2020-12-10 22:35:16,902 INFO Start the RaftGroupService successfully.
+
+2020-12-10 22:35:16,905 INFO The number of active nodes increment to 2.
+
+2020-12-10 22:35:16,907 INFO onLeaderStart: term=2.
+
+2020-12-10 22:35:16,954 INFO Starts FSMCaller successfully.
+
+2020-12-10 22:35:16,954 WARN No data for snapshot reader /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot.
+
+2020-12-10 22:35:16,954 INFO Node <naming_service_metadata/192.168.0.102:7848> target priority value has changed from: 0, to: -1.
+
+2020-12-10 22:35:16,955 INFO Node <naming_service_metadata/192.168.0.102:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 22:35:16,956 INFO Node <naming_service_metadata/192.168.0.102:7848> start vote and grant vote self, term=1.
+
+2020-12-10 22:35:16,984 WARN Channel in TRANSIENT_FAILURE state: 192.168.0.102:7848.
+
+2020-12-10 22:35:17,003 WARN Channel in SHUTDOWN state: 192.168.0.102:7848.
+
+2020-12-10 22:35:17,054 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=2, votedFor=192.168.0.102:7848, cost time=98 ms
+
+2020-12-10 22:35:17,055 INFO Node <naming_service_metadata/192.168.0.102:7848> become leader of group, term=2, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-10 22:35:17,055 WARN RPC server is not started in RaftGroupService.
+
+2020-12-10 22:35:17,055 INFO Start the RaftGroupService successfully.
+
+2020-12-10 22:35:17,068 INFO onLeaderStart: term=2.
+

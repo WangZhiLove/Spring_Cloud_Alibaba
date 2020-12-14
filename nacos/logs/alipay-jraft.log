@@ -1,0 +1,90 @@
+2020-12-12 10:09:15,576 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2020-12-12 10:09:15,638 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2020-12-12 10:09:15,754 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2020-12-12 10:09:15,755 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2020-12-12 10:09:15,755 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2020-12-12 10:09:15,758 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2020-12-12 10:09:15,763 INFO The number of active nodes increment to 1.
+
+2020-12-12 10:09:16,240 INFO Starts FSMCaller successfully.
+
+2020-12-12 10:09:16,252 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.0.102:7848"
+.
+
+2020-12-12 10:09:16,343 INFO Node <naming_instance_metadata/192.168.0.102:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.0.102:7848"
+
+
+2020-12-12 10:09:16,344 INFO Node <naming_instance_metadata/192.168.0.102:7848> target priority value has changed from: 0, to: -1.
+
+2020-12-12 10:09:16,360 INFO Node <naming_instance_metadata/192.168.0.102:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-12 10:09:16,361 INFO Node <naming_instance_metadata/192.168.0.102:7848> start vote and grant vote self, term=5.
+
+2020-12-12 10:09:16,418 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=6, votedFor=192.168.0.102:7848, cost time=55 ms
+
+2020-12-12 10:09:16,419 INFO Node <naming_instance_metadata/192.168.0.102:7848> become leader of group, term=6, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-12 10:09:16,423 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2020-12-12 10:09:16,426 WARN RPC server is not started in RaftGroupService.
+
+2020-12-12 10:09:16,426 INFO Start the RaftGroupService successfully.
+
+2020-12-12 10:09:16,432 INFO The number of active nodes increment to 2.
+
+2020-12-12 10:09:16,434 INFO onLeaderStart: term=6.
+
+2020-12-12 10:09:16,498 INFO Starts FSMCaller successfully.
+
+2020-12-12 10:09:16,499 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.0.102:7848"
+.
+
+2020-12-12 10:09:16,500 INFO Node <naming_service_metadata/192.168.0.102:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.0.102:7848"
+
+
+2020-12-12 10:09:16,500 INFO Node <naming_service_metadata/192.168.0.102:7848> target priority value has changed from: 0, to: -1.
+
+2020-12-12 10:09:16,502 INFO Node <naming_service_metadata/192.168.0.102:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.0.102:7848, oldConf=.
+
+2020-12-12 10:09:16,503 INFO Node <naming_service_metadata/192.168.0.102:7848> start vote and grant vote self, term=5.
+
+2020-12-12 10:09:16,521 WARN Channel in TRANSIENT_FAILURE state: 192.168.0.102:7848.
+
+2020-12-12 10:09:16,527 WARN Channel in SHUTDOWN state: 192.168.0.102:7848.
+
+2020-12-12 10:09:16,548 INFO Save raft meta, path=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=6, votedFor=192.168.0.102:7848, cost time=44 ms
+
+2020-12-12 10:09:16,548 INFO Node <naming_service_metadata/192.168.0.102:7848> become leader of group, term=6, conf=192.168.0.102:7848, oldConf=.
+
+2020-12-12 10:09:16,548 WARN RPC server is not started in RaftGroupService.
+
+2020-12-12 10:09:16,549 INFO Start the RaftGroupService successfully.
+
+2020-12-12 10:09:16,549 INFO onLeaderStart: term=6.
+
+2020-12-12 10:24:52,557 INFO Deleting snapshot /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_6.
+
+2020-12-12 10:24:52,558 INFO Renaming /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_6.
+
+2020-12-12 10:24:52,559 INFO Deleting snapshot /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_5.
+
+2020-12-12 10:27:59,858 INFO Deleting snapshot /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_6.
+
+2020-12-12 10:27:59,859 INFO Renaming /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_6.
+
+2020-12-12 10:27:59,860 INFO Deleting snapshot /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_5.
+

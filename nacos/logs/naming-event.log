@@ -1,0 +1,4 @@
+2020-12-12 10:59:56,360 INFO {POS} {IP-DISABLED} valid: 192.168.0.102:8082@DEFAULT@nacos-discovery-consumer, region: unknown, msg: client last beat: 1607741976400
+
+2020-12-12 11:00:04,690 INFO service: DEFAULT_GROUP@@nacos-discovery-consumer {POS} {IP-ENABLED} valid: 192.168.0.102:8082@DEFAULT, region: unknown, msg: client beat ok
+

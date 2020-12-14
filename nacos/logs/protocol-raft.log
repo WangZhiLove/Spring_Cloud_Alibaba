@@ -1,0 +1,18 @@
+2020-12-12 10:09:15,539 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-12-12 10:09:15,705 INFO ========= The raft protocol is starting... =========
+
+2020-12-12 10:09:15,725 INFO ========= The raft protocol start finished... =========
+
+2020-12-12 10:09:15,742 INFO create raft group : naming_instance_metadata
+
+2020-12-12 10:09:16,342 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.102:7848]}
+
+2020-12-12 10:09:16,432 INFO create raft group : naming_service_metadata
+
+2020-12-12 10:09:16,434 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.0.102:7848', term=6, raftClusterInfo=[192.168.0.102:7848]}
+
+2020-12-12 10:09:16,500 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.102:7848]}
+
+2020-12-12 10:09:16,549 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.0.102:7848', term=6, raftClusterInfo=[192.168.0.102:7848]}
+

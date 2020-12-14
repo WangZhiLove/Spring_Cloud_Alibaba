@@ -1,0 +1,336 @@
+2020-12-11 10:11:06,910 INFO notifyConnectTimeout:200
+
+2020-12-11 10:11:06,914 INFO notifySocketTimeout:8000
+
+2020-12-11 10:11:06,914 INFO isHealthCheck:true
+
+2020-12-11 10:11:06,914 INFO maxHealthCheckFailCount:12
+
+2020-12-11 10:11:06,914 INFO maxContent:10485760
+
+2020-12-11 10:11:06,914 INFO isPushContent:false
+
+2020-12-11 10:11:11,048 INFO use local db service for init
+
+2020-12-11 10:11:11,684 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2020-12-11 10:11:11,699 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2020-12-11 10:11:11,754 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,807 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,827 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,834 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,840 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,847 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,852 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,858 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,864 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,875 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,881 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,886 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,895 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,899 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,904 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:11:11,965 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL201210215805310' defined on 'USERS'.
+
+2020-12-11 10:11:11,970 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-12-11 10:11:11,971 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:11:11,971 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:11:11,971 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:11:11,972 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:11:11,972 INFO use StandaloneDatabaseOperateImpl
+
+2020-12-11 10:11:12,939 WARN DumpService start
+
+2020-12-11 10:11:12,941 INFO start clear all config-info.
+
+2020-12-11 10:11:12,941 WARN clear all config-info failed.
+
+2020-12-11 10:11:12,941 WARN clear all config-info-tenant failed.
+
+2020-12-11 10:11:13,026 INFO [all-dump] 311314581090099200 / 311314581090099200
+
+2020-12-11 10:11:13,026 INFO start clear all config-info-beta.
+
+2020-12-11 10:11:13,026 WARN clear all config-info-beta failed.
+
+2020-12-11 10:11:13,026 WARN clear all config-info-beta-tenant failed.
+
+2020-12-11 10:11:13,042 INFO start clear all config-info-tag.
+
+2020-12-11 10:11:13,042 WARN clear all config-info-tag failed.
+
+2020-12-11 10:11:13,042 WARN clear all config-info-tag-tenant failed.
+
+2020-12-11 10:55:42,413 INFO notifyConnectTimeout:200
+
+2020-12-11 10:55:42,416 INFO notifySocketTimeout:8000
+
+2020-12-11 10:55:42,416 INFO isHealthCheck:true
+
+2020-12-11 10:55:42,416 INFO maxHealthCheckFailCount:12
+
+2020-12-11 10:55:42,416 INFO maxContent:10485760
+
+2020-12-11 10:55:42,416 INFO isPushContent:false
+
+2020-12-11 10:55:46,301 INFO use local db service for init
+
+2020-12-11 10:55:47,047 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2020-12-11 10:55:47,064 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2020-12-11 10:55:47,116 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,164 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,183 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,189 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,197 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,203 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,209 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,215 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,220 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,232 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,240 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,245 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,254 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,259 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,264 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-12-11 10:55:47,330 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL201210215805310' defined on 'USERS'.
+
+2020-12-11 10:55:47,336 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-12-11 10:55:47,336 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:55:47,337 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:55:47,337 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:55:47,337 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 10:55:47,338 INFO use StandaloneDatabaseOperateImpl
+
+2020-12-11 10:55:48,444 WARN DumpService start
+
+2020-12-11 10:55:48,445 INFO start clear all config-info.
+
+2020-12-11 10:55:48,446 WARN clear all config-info failed.
+
+2020-12-11 10:55:48,446 WARN clear all config-info-tenant failed.
+
+2020-12-11 10:55:48,560 INFO [all-dump] 311322388178821120 / 311322388178821120
+
+2020-12-11 10:55:48,560 INFO start clear all config-info-beta.
+
+2020-12-11 10:55:48,560 WARN clear all config-info-beta failed.
+
+2020-12-11 10:55:48,560 WARN clear all config-info-beta-tenant failed.
+
+2020-12-11 10:55:48,574 INFO start clear all config-info-tag.
+
+2020-12-11 10:55:48,574 WARN clear all config-info-tag failed.
+
+2020-12-11 10:55:48,574 WARN clear all config-info-tag-tenant failed.
+
+2020-12-11 11:03:36,220 INFO notifyConnectTimeout:200
+
+2020-12-11 11:03:36,223 INFO notifySocketTimeout:8000
+
+2020-12-11 11:03:36,223 INFO isHealthCheck:true
+
+2020-12-11 11:03:36,224 INFO maxHealthCheckFailCount:12
+
+2020-12-11 11:03:36,224 INFO maxContent:10485760
+
+2020-12-11 11:03:36,224 INFO isPushContent:false
+
+2020-12-11 11:03:40,581 INFO use local db service for init
+
+2020-12-11 11:03:41,967 ERROR Failed to start database '/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@506c589e, see the next exception for details.
+
+java.sql.SQLException: Failed to start database '/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@506c589e, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@506c589e, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2020-12-11 11:05:37,646 INFO notifyConnectTimeout:200
+
+2020-12-11 11:05:37,648 INFO notifySocketTimeout:8000
+
+2020-12-11 11:05:37,649 INFO isHealthCheck:true
+
+2020-12-11 11:05:37,649 INFO maxHealthCheckFailCount:12
+
+2020-12-11 11:05:37,649 INFO maxContent:10485760
+
+2020-12-11 11:05:37,649 INFO isPushContent:false
+
+2020-12-11 11:05:41,359 INFO use local db service for init
+
+2020-12-11 11:05:42,113 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2020-12-11 11:05:42,132 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2020-12-11 11:05:42,191 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,254 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,276 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,284 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,291 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,299 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,306 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,311 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,317 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,329 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,336 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,341 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,351 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,356 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,360 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-12-11 11:05:42,437 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL201210215805310' defined on 'USERS'.
+
+2020-12-11 11:05:42,443 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-12-11 11:05:42,444 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 11:05:42,445 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 11:05:42,446 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 11:05:42,447 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2020-12-11 11:05:42,447 INFO use StandaloneDatabaseOperateImpl
+
+2020-12-11 11:05:43,553 WARN DumpService start
+
+2020-12-11 11:05:43,554 INFO start clear all config-info.
+
+2020-12-11 11:05:43,555 WARN clear all config-info failed.
+
+2020-12-11 11:05:43,555 WARN clear all config-info-tenant failed.
+
+2020-12-11 11:05:43,656 INFO [all-dump] 311322388178821120 / 311322388178821120
+
+2020-12-11 11:05:43,656 INFO start clear all config-info-beta.
+
+2020-12-11 11:05:43,656 WARN clear all config-info-beta failed.
+
+2020-12-11 11:05:43,656 WARN clear all config-info-beta-tenant failed.
+
+2020-12-11 11:05:43,671 INFO start clear all config-info-tag.
+
+2020-12-11 11:05:43,672 WARN clear all config-info-tag failed.
+
+2020-12-11 11:05:43,672 WARN clear all config-info-tag-tenant failed.
+

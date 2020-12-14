@@ -1,0 +1,422 @@
+2020-12-14 20:21:15,287 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:21:15,288 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:52544, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52544,151724363029607
+
+2020-12-14 20:21:15,288 INFO send udp packet: 127.0.0.1,52544,151724363029607
+
+2020-12-14 20:21:15,295 INFO received ack: {"type": "push-ack", "lastRefTime":"151724363029607", "data":""} from: 127.0.0.1:52544, cost: 7 ms, unacked: 0, total push: 17
+
+2020-12-14 20:21:59,591 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:21:59,592 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:52544, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52544,151768666703730
+
+2020-12-14 20:21:59,592 INFO send udp packet: 127.0.0.1,52544,151768666703730
+
+2020-12-14 20:21:59,596 INFO received ack: {"type": "push-ack", "lastRefTime":"151768666703730", "data":""} from: 127.0.0.1:52544, cost: 4 ms, unacked: 0, total push: 18
+
+2020-12-14 20:27:18,369 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:27:18,370 INFO serviceName: DEFAULT_GROUP@@dubbo-provider@@DEFAULT changed, schedule push for: 192.168.0.102:50947, agent: Nacos-Java-Client:v1.3.2, key: 192.168.0.102,50947,152087445642603
+
+2020-12-14 20:27:18,370 INFO send udp packet: 192.168.0.102,50947,152087445642603
+
+2020-12-14 20:27:18,377 INFO received ack: {"type": "push-ack", "lastRefTime":"152087445642603", "data":""} from: 192.168.0.102:50947, cost: 7 ms, unacked: 0, total push: 19
+
+2020-12-14 20:30:55,849 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:30:55,850 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 192.168.0.102:50947, agent: Nacos-Java-Client:v1.3.2, key: 192.168.0.102,50947,152304927803562
+
+2020-12-14 20:30:55,850 INFO send udp packet: 192.168.0.102,50947,152304927803562
+
+2020-12-14 20:30:55,855 INFO received ack: {"type": "push-ack", "lastRefTime":"152304927803562", "data":""} from: 192.168.0.102:50947, cost: 5 ms, unacked: 0, total push: 20
+
+2020-12-14 20:31:13,546 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:31:13,547 INFO serviceName: DEFAULT_GROUP@@dubbo-provider@@DEFAULT changed, schedule push for: 192.168.0.102:50947, agent: Nacos-Java-Client:v1.3.2, key: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:31:13,547 INFO send udp packet: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:31:23,548 INFO retry to push data, key: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:31:23,548 INFO send udp packet: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:31:33,551 INFO retry to push data, key: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:31:33,551 WARN max re-push times reached, retry times 2, key: 192.168.0.102,50947,152322624104833
+
+2020-12-14 20:33:48,125 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:33:48,127 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:57554, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57554,152477203288284
+
+2020-12-14 20:33:48,127 INFO send udp packet: 127.0.0.1,57554,152477203288284
+
+2020-12-14 20:33:48,136 INFO received ack: {"type": "push-ack", "lastRefTime":"152477203288284", "data":""} from: 127.0.0.1:57554, cost: 9 ms, unacked: 0, total push: 22
+
+2020-12-14 20:40:07,987 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:40:07,988 INFO serviceName: DEFAULT_GROUP@@dubbo-provider@@DEFAULT changed, schedule push for: 127.0.0.1:52061, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52061,152857066730077
+
+2020-12-14 20:40:07,988 INFO send udp packet: 127.0.0.1,52061,152857066730077
+
+2020-12-14 20:40:07,994 INFO received ack: {"type": "push-ack", "lastRefTime":"152857066730077", "data":""} from: 127.0.0.1:52061, cost: 6 ms, unacked: 0, total push: 23
+
+2020-12-14 20:52:07,122 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:52:07,122 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:52061, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52061,153576204133695
+
+2020-12-14 20:52:07,122 INFO send udp packet: 127.0.0.1,52061,153576204133695
+
+2020-12-14 20:52:07,131 INFO received ack: {"type": "push-ack", "lastRefTime":"153576204133695", "data":""} from: 127.0.0.1:52061, cost: 9 ms, unacked: 0, total push: 24
+
+2020-12-14 20:52:25,246 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:52:25,247 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:52820, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52820,153594327936300
+
+2020-12-14 20:52:25,247 INFO send udp packet: 127.0.0.1,52820,153594327936300
+
+2020-12-14 20:52:25,253 INFO received ack: {"type": "push-ack", "lastRefTime":"153594327936300", "data":""} from: 127.0.0.1:52820, cost: 6 ms, unacked: 0, total push: 25
+
+2020-12-14 20:52:25,349 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:52:25,350 INFO serviceName: DEFAULT_GROUP@@dubbo-provider@@DEFAULT changed, schedule push for: 127.0.0.1:52487, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52487,153594431160752
+
+2020-12-14 20:52:25,350 INFO send udp packet: 127.0.0.1,52487,153594431160752
+
+2020-12-14 20:52:25,351 INFO received ack: {"type": "push-ack", "lastRefTime":"153594431160752", "data":""} from: 127.0.0.1:52487, cost: 1 ms, unacked: 0, total push: 26
+
+2020-12-14 20:58:04,540 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:58:04,540 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:52820, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52820,153933621572446
+
+2020-12-14 20:58:04,540 INFO send udp packet: 127.0.0.1,52820,153933621572446
+
+2020-12-14 20:58:04,544 INFO received ack: {"type": "push-ack", "lastRefTime":"153933621572446", "data":""} from: 127.0.0.1:52820, cost: 4 ms, unacked: 0, total push: 27
+
+2020-12-14 20:58:04,644 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:58:04,644 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:52487, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52487,153933725631602
+
+2020-12-14 20:58:04,644 INFO send udp packet: 127.0.0.1,52487,153933725631602
+
+2020-12-14 20:58:04,647 INFO received ack: {"type": "push-ack", "lastRefTime":"153933725631602", "data":""} from: 127.0.0.1:52487, cost: 3 ms, unacked: 0, total push: 28
+
+2020-12-14 20:59:54,855 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:59:54,856 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57021, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57021,154043936020395
+
+2020-12-14 20:59:54,856 INFO send udp packet: 127.0.0.1,57021,154043936020395
+
+2020-12-14 20:59:54,860 INFO received ack: {"type": "push-ack", "lastRefTime":"154043936020395", "data":""} from: 127.0.0.1:57021, cost: 4 ms, unacked: 0, total push: 29
+
+2020-12-14 20:59:54,957 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 20:59:54,957 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:63129, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,63129,154044038152460
+
+2020-12-14 20:59:54,957 INFO send udp packet: 127.0.0.1,63129,154044038152460
+
+2020-12-14 20:59:54,958 INFO received ack: {"type": "push-ack", "lastRefTime":"154044038152460", "data":""} from: 127.0.0.1:63129, cost: 1 ms, unacked: 0, total push: 30
+
+2020-12-14 20:59:55,162 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 20:59:55,163 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:64048, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,64048,154044243305645
+
+2020-12-14 20:59:55,163 INFO send udp packet: 127.0.0.1,64048,154044243305645
+
+2020-12-14 20:59:55,164 INFO received ack: {"type": "push-ack", "lastRefTime":"154044243305645", "data":""} from: 127.0.0.1:64048, cost: 1 ms, unacked: 0, total push: 31
+
+2020-12-14 21:00:27,891 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:00:27,892 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57021, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57021,154076972415556
+
+2020-12-14 21:00:27,892 INFO send udp packet: 127.0.0.1,57021,154076972415556
+
+2020-12-14 21:00:27,892 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:00:27,893 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:64048, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,64048,154076973069839
+
+2020-12-14 21:00:27,893 INFO send udp packet: 127.0.0.1,64048,154076973069839
+
+2020-12-14 21:00:27,896 INFO received ack: {"type": "push-ack", "lastRefTime":"154076972415556", "data":""} from: 127.0.0.1:57021, cost: 4 ms, unacked: 1, total push: 33
+
+2020-12-14 21:00:27,896 INFO received ack: {"type": "push-ack", "lastRefTime":"154076973069839", "data":""} from: 127.0.0.1:64048, cost: 3 ms, unacked: 0, total push: 33
+
+2020-12-14 21:00:27,991 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:00:27,991 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:63129, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,63129,154077071909978
+
+2020-12-14 21:00:27,991 INFO send udp packet: 127.0.0.1,63129,154077071909978
+
+2020-12-14 21:00:27,995 INFO received ack: {"type": "push-ack", "lastRefTime":"154077071909978", "data":""} from: 127.0.0.1:63129, cost: 4 ms, unacked: 0, total push: 34
+
+2020-12-14 21:00:43,998 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:00:43,999 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57021, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:00:43,999 INFO send udp packet: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:00:44,098 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:00:44,098 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:63129, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:00:44,098 INFO send udp packet: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:00:44,199 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:00:44,199 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:60287, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,60287,154093279830102
+
+2020-12-14 21:00:44,200 INFO send udp packet: 127.0.0.1,60287,154093279830102
+
+2020-12-14 21:00:44,204 INFO received ack: {"type": "push-ack", "lastRefTime":"154093279830102", "data":""} from: 127.0.0.1:60287, cost: 4 ms, unacked: 2, total push: 37
+
+2020-12-14 21:00:54,002 INFO retry to push data, key: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:00:54,002 INFO send udp packet: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:00:54,101 INFO retry to push data, key: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:00:54,101 INFO send udp packet: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:01:04,006 INFO retry to push data, key: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:01:04,006 WARN max re-push times reached, retry times 2, key: 127.0.0.1,57021,154093078821263
+
+2020-12-14 21:01:04,101 INFO retry to push data, key: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:01:04,101 WARN max re-push times reached, retry times 2, key: 127.0.0.1,63129,154093178342987
+
+2020-12-14 21:12:25,175 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:12:25,176 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57292, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57292,154794253718698
+
+2020-12-14 21:12:25,176 INFO send udp packet: 127.0.0.1,57292,154794253718698
+
+2020-12-14 21:12:25,176 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:12:25,176 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:60287, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,60287,154794254678635
+
+2020-12-14 21:12:25,176 INFO send udp packet: 127.0.0.1,60287,154794254678635
+
+2020-12-14 21:12:25,181 INFO received ack: {"type": "push-ack", "lastRefTime":"154794253718698", "data":""} from: 127.0.0.1:57292, cost: 5 ms, unacked: 1, total push: 2
+
+2020-12-14 21:12:25,181 INFO received ack: {"type": "push-ack", "lastRefTime":"154794254678635", "data":""} from: 127.0.0.1:60287, cost: 5 ms, unacked: 0, total push: 2
+
+2020-12-14 21:12:25,278 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:12:25,279 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:56451, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,56451,154794357153522
+
+2020-12-14 21:12:25,279 INFO send udp packet: 127.0.0.1,56451,154794357153522
+
+2020-12-14 21:12:25,282 INFO received ack: {"type": "push-ack", "lastRefTime":"154794357153522", "data":""} from: 127.0.0.1:56451, cost: 3 ms, unacked: 0, total push: 3
+
+2020-12-14 21:12:40,352 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:12:40,353 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57257, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57257,154809430892107
+
+2020-12-14 21:12:40,353 INFO send udp packet: 127.0.0.1,57257,154809430892107
+
+2020-12-14 21:12:40,359 INFO received ack: {"type": "push-ack", "lastRefTime":"154809430892107", "data":""} from: 127.0.0.1:57257, cost: 6 ms, unacked: 0, total push: 4
+
+2020-12-14 21:12:40,451 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:12:40,451 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:56451, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:12:40,452 INFO send udp packet: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:12:40,551 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:12:40,551 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:60287, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:12:40,551 INFO send udp packet: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:12:50,455 INFO retry to push data, key: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:12:50,456 INFO send udp packet: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:12:50,552 INFO retry to push data, key: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:12:50,552 INFO send udp packet: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:13:00,461 INFO retry to push data, key: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:13:00,461 WARN max re-push times reached, retry times 2, key: 127.0.0.1,56451,154809529443673
+
+2020-12-14 21:13:00,557 INFO retry to push data, key: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:13:00,557 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60287,154809629342159
+
+2020-12-14 21:17:15,310 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:17:15,311 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.EchoService:: changed, schedule push for: 127.0.0.1:63181, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,63181,155084391409441
+
+2020-12-14 21:17:15,312 INFO send udp packet: 127.0.0.1,63181,155084391409441
+
+2020-12-14 21:17:15,312 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:17:15,312 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:57257, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,57257,155084392242048
+
+2020-12-14 21:17:15,312 INFO send udp packet: 127.0.0.1,57257,155084392242048
+
+2020-12-14 21:17:15,316 INFO received ack: {"type": "push-ack", "lastRefTime":"155084391409441", "data":""} from: 127.0.0.1:63181, cost: 4 ms, unacked: 1, total push: 8
+
+2020-12-14 21:17:15,317 INFO received ack: {"type": "push-ack", "lastRefTime":"155084392242048", "data":""} from: 127.0.0.1:57257, cost: 5 ms, unacked: 0, total push: 8
+
+2020-12-14 21:17:15,413 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:17:15,413 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:59020, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,59020,155084493462106
+
+2020-12-14 21:17:15,413 INFO send udp packet: 127.0.0.1,59020,155084493462106
+
+2020-12-14 21:17:15,417 INFO received ack: {"type": "push-ack", "lastRefTime":"155084493462106", "data":""} from: 127.0.0.1:59020, cost: 4 ms, unacked: 0, total push: 9
+
+2020-12-14 21:43:02,993 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:43:02,994 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:55399, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,55399,156632072857108
+
+2020-12-14 21:43:02,994 INFO send udp packet: 127.0.0.1,55399,156632072857108
+
+2020-12-14 21:43:03,000 INFO received ack: {"type": "push-ack", "lastRefTime":"156632072857108", "data":""} from: 127.0.0.1:55399, cost: 6 ms, unacked: 0, total push: 10
+
+2020-12-14 21:45:33,094 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:45:33,095 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:55399, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,55399,156782175290910
+
+2020-12-14 21:45:33,095 INFO send udp packet: 127.0.0.1,55399,156782175290910
+
+2020-12-14 21:45:33,096 INFO received ack: {"type": "push-ack", "lastRefTime":"156782175290910", "data":""} from: 127.0.0.1:55399, cost: 1 ms, unacked: 0, total push: 11
+
+2020-12-14 21:45:47,852 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:45:47,853 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:62923, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,62923,156796933215319
+
+2020-12-14 21:45:47,853 INFO send udp packet: 127.0.0.1,62923,156796933215319
+
+2020-12-14 21:45:47,859 INFO received ack: {"type": "push-ack", "lastRefTime":"156796933215319", "data":""} from: 127.0.0.1:62923, cost: 6 ms, unacked: 0, total push: 12
+
+2020-12-14 21:45:47,953 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:45:47,953 INFO serviceName: DEFAULT_GROUP@@dubbo-provider@@DEFAULT changed, schedule push for: 127.0.0.1:61612, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,61612,156797033617104
+
+2020-12-14 21:45:47,953 INFO send udp packet: 127.0.0.1,61612,156797033617104
+
+2020-12-14 21:45:47,954 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:45:47,954 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: changed, schedule push for: 127.0.0.1:52547, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52547,156797034587353
+
+2020-12-14 21:45:47,954 INFO send udp packet: 127.0.0.1,52547,156797034587353
+
+2020-12-14 21:45:47,955 INFO received ack: {"type": "push-ack", "lastRefTime":"156797034587353", "data":""} from: 127.0.0.1:52547, cost: 1 ms, unacked: 1, total push: 14
+
+2020-12-14 21:45:47,956 INFO received ack: {"type": "push-ack", "lastRefTime":"156797033617104", "data":""} from: 127.0.0.1:61612, cost: 3 ms, unacked: 0, total push: 14
+
+2020-12-14 21:47:14,038 INFO DEFAULT_GROUP@@dubbo-consumer is changed, add it to push queue.
+
+2020-12-14 21:47:14,039 INFO serviceName: DEFAULT_GROUP@@dubbo-consumer changed, schedule push for: 127.0.0.1:52155, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52155,156883118711184
+
+2020-12-14 21:47:14,039 INFO send udp packet: 127.0.0.1,52155,156883118711184
+
+2020-12-14 21:47:14,045 INFO received ack: {"type": "push-ack", "lastRefTime":"156883118711184", "data":""} from: 127.0.0.1:52155, cost: 6 ms, unacked: 0, total push: 15
+
+2020-12-14 21:53:50,691 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:53:50,693 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:62923, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,62923,157279773048200
+
+2020-12-14 21:53:50,693 INFO send udp packet: 127.0.0.1,62923,157279773048200
+
+2020-12-14 21:53:50,693 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:53:50,693 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: changed, schedule push for: 127.0.0.1:52547, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52547,157279773545901
+
+2020-12-14 21:53:50,693 INFO send udp packet: 127.0.0.1,52547,157279773545901
+
+2020-12-14 21:53:50,697 INFO received ack: {"type": "push-ack", "lastRefTime":"157279773545901", "data":""} from: 127.0.0.1:52547, cost: 4 ms, unacked: 1, total push: 17
+
+2020-12-14 21:53:50,698 INFO received ack: {"type": "push-ack", "lastRefTime":"157279773048200", "data":""} from: 127.0.0.1:62923, cost: 5 ms, unacked: 0, total push: 17
+
+2020-12-14 21:53:50,791 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:53:50,791 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:61612, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,61612,157279871544907
+
+2020-12-14 21:53:50,792 INFO send udp packet: 127.0.0.1,61612,157279871544907
+
+2020-12-14 21:53:50,795 INFO received ack: {"type": "push-ack", "lastRefTime":"157279871544907", "data":""} from: 127.0.0.1:61612, cost: 3 ms, unacked: 0, total push: 18
+
+2020-12-14 21:53:53,646 INFO DEFAULT_GROUP@@dubbo-consumer is changed, add it to push queue.
+
+2020-12-14 21:53:53,647 INFO serviceName: DEFAULT_GROUP@@dubbo-consumer changed, schedule push for: 127.0.0.1:52155, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52155,157282726678076
+
+2020-12-14 21:53:53,647 INFO send udp packet: 127.0.0.1,52155,157282726678076
+
+2020-12-14 21:53:53,650 INFO received ack: {"type": "push-ack", "lastRefTime":"157282726678076", "data":""} from: 127.0.0.1:52155, cost: 3 ms, unacked: 0, total push: 19
+
+2020-12-14 21:54:09,607 INFO DEFAULT_GROUP@@dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:54:09,609 INFO serviceName: DEFAULT_GROUP@@dubbo-provider changed, schedule push for: 127.0.0.1:61612, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:09,609 INFO send udp packet: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:09,609 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider is changed, add it to push queue.
+
+2020-12-14 21:54:09,609 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider changed, schedule push for: 127.0.0.1:62923, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:09,609 INFO send udp packet: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:09,709 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.me.HelloService:: is changed, add it to push queue.
+
+2020-12-14 21:54:09,709 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.me.HelloService:: changed, schedule push for: 127.0.0.1:56245, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,56245,157298789470073
+
+2020-12-14 21:54:09,709 INFO send udp packet: 127.0.0.1,56245,157298789470073
+
+2020-12-14 21:54:09,713 INFO received ack: {"type": "push-ack", "lastRefTime":"157298789470073", "data":""} from: 127.0.0.1:56245, cost: 4 ms, unacked: 2, total push: 22
+
+2020-12-14 21:54:09,909 INFO DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: is changed, add it to push queue.
+
+2020-12-14 21:54:09,910 INFO serviceName: DEFAULT_GROUP@@providers:com.alibaba.cloud.demo.dubbo.api.EchoService:: changed, schedule push for: 127.0.0.1:52547, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,52547,157298990036619
+
+2020-12-14 21:54:09,910 INFO send udp packet: 127.0.0.1,52547,157298990036619
+
+2020-12-14 21:54:11,640 INFO DEFAULT_GROUP@@dubbo-consumer is changed, add it to push queue.
+
+2020-12-14 21:54:11,641 INFO serviceName: DEFAULT_GROUP@@dubbo-consumer changed, schedule push for: 127.0.0.1:54036, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,54036,157300720674711
+
+2020-12-14 21:54:11,641 INFO send udp packet: 127.0.0.1,54036,157300720674711
+
+2020-12-14 21:54:11,645 INFO received ack: {"type": "push-ack", "lastRefTime":"157300720674711", "data":""} from: 127.0.0.1:54036, cost: 4 ms, unacked: 3, total push: 24
+
+2020-12-14 21:54:19,613 INFO retry to push data, key: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:19,614 INFO send udp packet: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:19,614 INFO retry to push data, key: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:19,614 INFO send udp packet: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:19,911 INFO retry to push data, key: 127.0.0.1,52547,157298990036619
+
+2020-12-14 21:54:19,911 INFO send udp packet: 127.0.0.1,52547,157298990036619
+
+2020-12-14 21:54:29,616 INFO retry to push data, key: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:29,616 WARN max re-push times reached, retry times 2, key: 127.0.0.1,61612,157298688650821
+
+2020-12-14 21:54:29,616 INFO retry to push data, key: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:29,616 WARN max re-push times reached, retry times 2, key: 127.0.0.1,62923,157298689738172
+
+2020-12-14 21:54:29,915 INFO retry to push data, key: 127.0.0.1,52547,157298990036619
+
+2020-12-14 21:54:29,916 WARN max re-push times reached, retry times 2, key: 127.0.0.1,52547,157298990036619
+
+2020-12-14 22:48:07,255 INFO DEFAULT_GROUP@@dubbo-consumer is changed, add it to push queue.
+
+2020-12-14 22:48:07,258 INFO serviceName: DEFAULT_GROUP@@dubbo-consumer@@DEFAULT changed, schedule push for: 127.0.0.1:54036, agent: Nacos-Java-Client:v1.3.2, key: 127.0.0.1,54036,160536331174410
+
+2020-12-14 22:48:07,258 INFO send udp packet: 127.0.0.1,54036,160536331174410
+
+2020-12-14 22:48:17,261 INFO retry to push data, key: 127.0.0.1,54036,160536331174410
+
+2020-12-14 22:48:17,261 INFO send udp packet: 127.0.0.1,54036,160536331174410
+
+2020-12-14 22:48:27,262 INFO retry to push data, key: 127.0.0.1,54036,160536331174410
+
+2020-12-14 22:48:27,262 WARN max re-push times reached, retry times 2, key: 127.0.0.1,54036,160536331174410
+

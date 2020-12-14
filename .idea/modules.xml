@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring_Cloud_Alibaba.iml" filepath="$PROJECT_DIR$/.idea/Spring_Cloud_Alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-provider/nacos-discovery-provider.iml" filepath="$PROJECT_DIR$/nacos-discovery-provider/nacos-discovery-provider.iml" />
+    </modules>
+  </component>
+</project>

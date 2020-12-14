@@ -1,0 +1,86 @@
+2020-12-10 21:58:05,808 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-10 21:58:05,825 INFO initializing Raft sub-system
+
+2020-12-10 21:58:05,825 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-12-10 21:58:05,827 INFO cache loaded, datum count: 0, current term: 0
+
+2020-12-10 21:58:05,827 INFO finish to load data from disk, cost: 2 ms.
+
+2020-12-10 21:58:05,829 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-12-10 21:58:06,380 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-12-10 21:58:06,396 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-12-10 21:58:07,380 INFO leader timeout, start voting,leader: {"ip":"192.168.0.102:8848","term":0,"leaderDueMs":17773,"heartbeatDueMs":4500,"state":"FOLLOWER"}, term: 0
+
+2020-12-10 21:58:08,787 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1607608688786, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@7fce301a, raftPort=7848, remoteConnectType=GRPC, site=unknow, version=2.0.0-ALPHA.1, weight=1}}]
+
+2020-12-10 21:58:10,796 WARN start to close old raft protocol!!!
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for notifier
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for master task
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for heartbeat task
+
+2020-12-10 21:58:10,796 WARN clean old cache datum for old raft
+
+2020-12-10 21:58:10,796 WARN start to close old raft protocol!!!
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for notifier
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for master task
+
+2020-12-10 21:58:10,796 WARN stop old raft protocol task for heartbeat task
+
+2020-12-10 21:58:10,796 WARN clean old cache datum for old raft
+
+2020-12-10 21:58:10,797 WARN start to move old raft protocol metadata
+
+2020-12-10 21:58:10,797 WARN start to move old raft protocol metadata
+
+2020-12-10 22:35:14,011 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-10 22:35:14,036 INFO initializing Raft sub-system
+
+2020-12-10 22:35:14,037 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2020-12-10 22:35:14,039 INFO cache loaded, datum count: 0, current term: 0
+
+2020-12-10 22:35:14,039 INFO finish to load data from disk, cost: 3 ms.
+
+2020-12-10 22:35:14,041 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-12-10 22:35:14,617 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-12-10 22:35:14,628 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-12-10 22:35:16,913 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1607610916912, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@995a674, raftPort=7848, remoteConnectType=GRPC, site=unknow, version=2.0.0-ALPHA.1, weight=1}}]
+
+2020-12-10 22:35:18,996 WARN start to close old raft protocol!!!
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for notifier
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for master task
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for heartbeat task
+
+2020-12-10 22:35:18,996 WARN clean old cache datum for old raft
+
+2020-12-10 22:35:18,996 WARN start to close old raft protocol!!!
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for notifier
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for master task
+
+2020-12-10 22:35:18,996 WARN stop old raft protocol task for heartbeat task
+
+2020-12-10 22:35:18,996 WARN clean old cache datum for old raft
+
+2020-12-10 22:35:18,996 WARN start to move old raft protocol metadata
+
+2020-12-10 22:35:18,997 WARN start to move old raft protocol metadata
+

@@ -1,0 +1,12 @@
+2020-12-10 21:58:06,395 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-12-10 21:58:06,396 INFO listen for service meta change
+
+2020-12-10 21:58:08,787 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.0.102:8848], new: [192.168.0.102:8848]
+
+2020-12-10 22:35:14,628 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-12-10 22:35:14,628 INFO listen for service meta change
+
+2020-12-10 22:35:16,914 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.0.102:8848], new: [192.168.0.102:8848]
+
