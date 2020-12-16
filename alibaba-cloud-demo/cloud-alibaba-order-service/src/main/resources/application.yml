@@ -1,0 +1,16 @@
+server:
+    port: 9003
+spring:
+    application:
+        name: cloud-alibaba-order-service
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/xdclass?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: root
+        password: nrblwbb7
+
+mybatis:
+    configuration:
+#        sql-fragments: org.apache.ibatis.logging.stdout.StdOutImpl
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+        map-underscore-to-camel-case: true

@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/spring_cloud_alibaba/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_alibaba/dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
       </list>
     </option>
   </component>

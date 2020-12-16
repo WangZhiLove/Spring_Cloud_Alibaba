@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring_Cloud_Alibaba.iml" filepath="$PROJECT_DIR$/.idea/Spring_Cloud_Alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config-boot/nacos-config-boot.iml" filepath="$PROJECT_DIR$/nacos-config-boot/nacos-config-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config-cloud/nacos-config-cloud.iml" filepath="$PROJECT_DIR$/nacos-config-cloud/nacos-config-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-consumer/nacos-discovery-consumer.iml" filepath="$PROJECT_DIR$/nacos-discovery-consumer/nacos-discovery-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-discovery-provider/nacos-discovery-provider.iml" filepath="$PROJECT_DIR$/nacos-discovery-provider/nacos-discovery-provider.iml" />
     </modules>
   </component>
