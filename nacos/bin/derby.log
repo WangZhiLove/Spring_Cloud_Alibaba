@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Sat Dec 12 10:09:12 CST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-54b5-8a23-000014948820 
-on database directory /Users/wangzhi/workspace/spring_cloud_alibaba/nacos/data/derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@506c589e 
-Loaded from jar:file:/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
+Thu Dec 17 18:32:55 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-7042-7fb3-000014c572f8 
+on database directory /Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/data/derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@506c589e 
+Loaded from jar:file:/Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
 java.vendor=Oracle Corporation
 java.runtime.version=14.0.1+7
-user.dir=/Users/wangzhi/workspace/spring_cloud_alibaba/nacos/bin
+user.dir=/Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/bin
 os.name=Mac OS X
 os.arch=x86_64
 os.version=10.16

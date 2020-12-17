@@ -1,8 +1,20 @@
-2020-12-14 21:00:42,586 WARN [dump-ignore] ignore to save cache file. groupKey=com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider:provider:dubbo-provider+dubbo, md5=33f18350c60155b1778620a6e41fdfbf, lastModifiedOld=1607950793414, lastModifiedNew=1607950842491
+2020-12-17 18:32:56,799 INFO [dump-all-ok] nacos-config-boot+DEFAULT_GROUP, 1607658014788, length=24, md5=14919aeef82b819ec0bb53af26dcbf7c
 
-2020-12-14 21:00:42,896 WARN [dump-ignore] ignore to save cache file. groupKey=com.alibaba.cloud.EchoService:::provider:dubbo-provider+dubbo, md5=2264df4b43b150b9fd14d552ea706646, lastModifiedOld=1607950793787, lastModifiedNew=1607950842838
+2020-12-17 18:32:56,800 INFO [dump-all-ok] nacos-config-cloud+DEFAULT_GROUP, 1607667799139, length=39, md5=4a0eed9eaaafd2ba69390ce7b2072b9f
 
-2020-12-14 21:54:08,121 WARN [dump-ignore] ignore to save cache file. groupKey=com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider:provider:dubbo-provider+dubbo, md5=33f18350c60155b1778620a6e41fdfbf, lastModifiedOld=1607953546344, lastModifiedNew=1607954048069
+2020-12-17 18:32:56,801 INFO [dump-all-ok] com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:dubbo-provider:provider:dubbo-provider+dubbo, 1607954048069, length=1358, md5=33f18350c60155b1778620a6e41fdfbf
 
-2020-12-14 21:54:08,635 WARN [dump-ignore] ignore to save cache file. groupKey=com.alibaba.cloud.demo.dubbo.api.EchoService:::provider:dubbo-provider+dubbo, md5=eba8c71de482dd8ad5b29d5721c65887, lastModifiedOld=1607953546589, lastModifiedNew=1607954048537
+2020-12-17 18:32:56,801 INFO [dump-all-ok] dubbo-provider+mapping-com.alibaba.cloud.dubbo.service.DubboMetadataService, 1607954048062, length=13, md5=db0ffd1a6e5ab42a63efb263baf0ec9a
+
+2020-12-17 18:32:56,801 INFO [dump-all-ok] dubbo-provider+mapping-com.alibaba.cloud.EchoService, 1607951559245, length=13, md5=d042df464dacc36c18e47bd477c32128
+
+2020-12-17 18:32:56,801 INFO [dump-all-ok] com.alibaba.cloud.EchoService:::provider:dubbo-provider+dubbo, 1607951559247, length=847, md5=179f97a593d2ce36823d53d147aadca7
+
+2020-12-17 18:32:56,802 INFO [dump-all-ok] dubbo-provider+mapping-com.alibaba.cloud.demo.dubbo.api.EchoService, 1607954048536, length=13, md5=023c9b9690fefd4e6e8b6ec533a82bd2
+
+2020-12-17 18:32:56,802 INFO [dump-all-ok] com.alibaba.cloud.demo.dubbo.api.EchoService:::provider:dubbo-provider+dubbo, 1607954048537, length=873, md5=eba8c71de482dd8ad5b29d5721c65887
+
+2020-12-17 18:32:56,802 INFO [dump-all-ok] dubbo-provider+mapping-com.alibaba.cloud.demo.dubbo.me.HelloService, 1607954048311, length=13, md5=98cc306dadde8f8be2de46c6dad02bce
+
+2020-12-17 18:32:56,803 INFO [dump-all-ok] com.alibaba.cloud.demo.dubbo.me.HelloService:::provider:dubbo-provider+dubbo, 1607954048313, length=875, md5=40775d3023847a8b9b82f29326941fe9
 
