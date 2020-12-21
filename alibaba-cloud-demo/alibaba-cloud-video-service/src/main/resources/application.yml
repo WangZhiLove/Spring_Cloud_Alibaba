@@ -15,6 +15,12 @@ spring:
                 namespace: 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f
                 username: nacos
                 password: nacos
+        sentinel:
+            transport:
+                # 控制台ip
+                dashboard: 127.0.0.1:8080
+                # 不能被占用的随机端口
+                port: 9998
 
 mybatis:
     configuration:

@@ -188,3 +188,27 @@
 
 2020-12-21 19:15:33,459 WARN clearConfigHistory start
 
+2020-12-21 19:25:33,457 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:25:33,458 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:25:33,474 WARN clearConfigHistory start
+
+2020-12-21 19:35:33,474 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:35:33,474 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:35:33,491 WARN clearConfigHistory start
+
+2020-12-21 19:45:33,492 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:45:33,492 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:45:33,513 WARN clearConfigHistory start
+
+2020-12-21 19:55:33,507 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:55:33,508 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:55:33,527 WARN clearConfigHistory start
+

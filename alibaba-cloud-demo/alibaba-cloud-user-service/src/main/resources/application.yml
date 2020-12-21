@@ -13,6 +13,12 @@ spring:
             discovery:
                 server-addr: 127.0.0.1:8848
                 namespace: 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f
+        sentinel:
+            transport:
+                # 控制台ip
+                dashboard: 127.0.0.1:8080
+                # 不能被占用的随机端口，与sentinel交互的端口
+                port: 9997
 
 mybatis:
     configuration:
