@@ -1,158 +1,190 @@
-2020-12-17 18:32:51,255 INFO Starting Nacos v2.0.0-ALPHA.1 on MacBook-Pro.local with PID 4580 (/Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/target/nacos-server.jar started by wangzhi in /Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/bin)
+2020-12-21 00:04:11,804 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s764ms).
 
-2020-12-17 18:32:51,256 INFO The following profiles are active: standalone
+2020-12-21 00:05:16,373 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:32:53,742 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@9cd25ff' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 00:05:16,374 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:32:53,747 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 00:05:16,386 WARN clearConfigHistory start
 
-2020-12-17 18:32:54,111 INFO Tomcat initialized with port(s): 8848 (http)
+2020-12-21 00:05:35,492 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s674ms).
 
-2020-12-17 18:32:54,147 INFO Starting service [Tomcat]
+2020-12-21 00:11:01,674 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s182ms).
 
-2020-12-17 18:32:54,147 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-21 00:16:58,378 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s694ms).
 
-2020-12-17 18:32:54,433 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-12-21 00:22:55,238 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s852ms).
 
-2020-12-17 18:32:54,469 INFO Initializing Spring embedded WebApplicationContext
+2020-12-21 00:24:18,919 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s667ms).
 
-2020-12-17 18:32:54,469 INFO Root WebApplicationContext: initialization completed in 3139 ms
+2020-12-21 00:29:44,952 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s33ms).
 
-2020-12-17 18:32:54,989 INFO HikariPool-1 - Starting...
+2020-12-21 00:35:40,973 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s17ms).
 
-2020-12-17 18:32:54,998 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2020-12-21 00:41:37,659 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s676ms).
 
-2020-12-17 18:32:55,240 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2020-12-21 00:42:31,339 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s680ms).
 
-2020-12-17 18:32:55,243 INFO HikariPool-1 - Start completed.
+2020-12-21 00:48:27,486 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s138ms).
 
-2020-12-17 18:32:56,014 INFO Nacos-related cluster resource initialization
+2020-12-21 00:54:24,324 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s835ms).
 
-2020-12-17 18:32:56,022 INFO The cluster resource is initialized
+2020-12-21 01:00:21,191 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s865ms).
 
-2020-12-17 18:32:56,471 INFO Reflections took 40 ms to scan 1 urls, producing 6 keys and 26 values 
+2020-12-21 01:00:31,968 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:32:56,505 INFO Reflections took 3 ms to scan 1 urls, producing 4 keys and 17 values 
+2020-12-21 01:00:31,969 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:32:56,512 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+2020-12-21 01:00:31,983 WARN clearConfigHistory start
 
-2020-12-17 18:32:56,799 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:01:14,875 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s684ms).
 
-2020-12-17 18:32:56,800 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:07:11,707 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s827ms).
 
-2020-12-17 18:32:56,800 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:13:08,513 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s802ms).
 
-2020-12-17 18:32:56,801 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:18:34,609 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s96ms).
 
-2020-12-17 18:32:56,801 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:19:58,310 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s682ms).
 
-2020-12-17 18:32:56,801 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:25:55,124 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s805ms).
 
-2020-12-17 18:32:56,802 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:31:52,006 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s871ms).
 
-2020-12-17 18:32:56,802 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:37:18,764 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s758ms).
 
-2020-12-17 18:32:56,802 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:38:42,463 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s676ms).
 
-2020-12-17 18:32:56,802 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+2020-12-21 01:44:37,685 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m25s213ms).
 
-2020-12-17 18:32:56,955 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 6 values 
+2020-12-21 01:50:05,924 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s239ms).
 
-2020-12-17 18:32:56,958 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 5 values 
+2020-12-21 02:13:51,691 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m15s761ms).
 
-2020-12-17 18:32:56,962 INFO Reflections took 1 ms to scan 1 urls, producing 3 keys and 7 values 
+2020-12-21 02:14:00,809 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:32:56,964 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 6 values 
+2020-12-21 02:14:00,809 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:32:56,966 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 9 values 
+2020-12-21 02:14:00,830 WARN clearConfigHistory start
 
-2020-12-17 18:32:56,968 INFO Reflections took 1 ms to scan 1 urls, producing 3 keys and 10 values 
+2020-12-21 02:15:15,400 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s681ms).
 
-2020-12-17 18:32:56,971 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 2 values 
+2020-12-21 04:02:23,645 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m38s235ms).
 
-2020-12-17 18:32:56,974 INFO Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values 
+2020-12-21 04:03:17,313 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s668ms).
 
-2020-12-17 18:32:59,756 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 05:50:26,237 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m38s916ms).
 
-2020-12-17 18:32:59,882 INFO Adding welcome page: class path resource [static/index.html]
+2020-12-21 05:51:49,912 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s669ms).
 
-2020-12-17 18:33:00,339 INFO Creating filter chain: Ant [pattern='/**'], []
+2020-12-21 07:08:35,679 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m15s755ms).
 
-2020-12-17 18:33:00,379 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c046c92, org.springframework.security.web.context.SecurityContextPersistenceFilter@100aa331, org.springframework.security.web.header.HeaderWriterFilter@37e0056e, org.springframework.security.web.csrf.CsrfFilter@261b9a37, org.springframework.security.web.authentication.logout.LogoutFilter@1f78d415, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@724bf25f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29f3c438, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27960b1e, org.springframework.security.web.session.SessionManagementFilter@42679fc2, org.springframework.security.web.access.ExceptionTranslationFilter@2199e845]
+2020-12-21 07:12:21,754 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m16s54ms).
 
-2020-12-17 18:33:00,497 INFO Initializing ExecutorService 'taskScheduler'
+2020-12-21 07:14:36,573 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s820ms).
 
-2020-12-17 18:33:00,519 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-21 07:17:23,566 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s993ms).
 
-2020-12-17 18:33:00,635 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2020-12-21 07:31:43,950 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m50s373ms).
 
-2020-12-17 18:33:00,639 INFO Started Nacos in 10.328 seconds (JVM running for 11.087)
+2020-12-21 08:12:07,357 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:33:00,639 INFO Nacos Log files: /Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/logs
+2020-12-21 08:12:07,359 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:33:00,640 INFO Nacos Log files: /Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/conf
+2020-12-21 08:12:07,378 WARN clearConfigHistory start
 
-2020-12-17 18:33:00,640 INFO Nacos Log files: /Users/wangzhi/workspace/Spring_Cloud_Alibaba/nacos/data
+2020-12-21 08:12:23,616 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m34s768ms).
 
-2020-12-17 18:33:00,640 INFO Nacos started successfully in stand alone mode. use embedded storage
+2020-12-21 08:22:07,431 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:33:21,840 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-21 08:22:07,431 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:33:21,841 INFO Initializing Servlet 'dispatcherServlet'
+2020-12-21 08:22:07,451 WARN clearConfigHistory start
 
-2020-12-17 18:33:21,849 INFO Completed initialization in 8 ms
+2020-12-21 08:32:07,441 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:42:56,841 WARN clearConfigHistory start
+2020-12-21 08:32:07,441 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:42:56,851 INFO [capacityManagement] start correct usage
+2020-12-21 08:32:07,460 WARN clearConfigHistory start
 
-2020-12-17 18:42:56,865 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 08:42:07,451 INFO [capacityManagement] start correct usage
 
-2020-12-17 18:52:56,876 WARN clearConfigHistory start
+2020-12-21 08:42:07,452 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 18:52:56,889 INFO [capacityManagement] start correct usage
+2020-12-21 08:42:07,474 WARN clearConfigHistory start
 
-2020-12-17 18:52:56,890 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 08:52:07,465 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:02:56,876 WARN clearConfigHistory start
+2020-12-21 08:52:07,466 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:02:56,894 INFO [capacityManagement] start correct usage
+2020-12-21 08:52:07,485 WARN clearConfigHistory start
 
-2020-12-17 19:02:56,895 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:02:07,476 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:12:56,879 WARN clearConfigHistory start
+2020-12-21 09:02:07,476 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:12:56,896 INFO [capacityManagement] start correct usage
+2020-12-21 09:02:07,495 WARN clearConfigHistory start
 
-2020-12-17 19:12:56,897 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:12:07,490 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:22:56,910 WARN clearConfigHistory start
+2020-12-21 09:12:07,490 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:22:56,922 INFO [capacityManagement] start correct usage
+2020-12-21 09:12:07,508 WARN clearConfigHistory start
 
-2020-12-17 19:22:56,923 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:22:07,502 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:32:56,921 WARN clearConfigHistory start
+2020-12-21 09:22:07,503 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:32:56,927 INFO [capacityManagement] start correct usage
+2020-12-21 09:22:07,519 WARN clearConfigHistory start
 
-2020-12-17 19:32:56,927 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:32:07,512 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:42:56,919 WARN clearConfigHistory start
+2020-12-21 09:32:07,512 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:42:56,921 INFO [capacityManagement] start correct usage
+2020-12-21 09:32:07,533 WARN clearConfigHistory start
 
-2020-12-17 19:42:56,921 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:42:07,523 INFO [capacityManagement] start correct usage
 
-2020-12-17 19:52:56,924 INFO [capacityManagement] start correct usage
+2020-12-21 09:42:07,523 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 19:52:56,924 WARN clearConfigHistory start
+2020-12-21 09:42:07,546 WARN clearConfigHistory start
 
-2020-12-17 19:52:56,924 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 09:52:07,539 INFO [capacityManagement] start correct usage
 
-2020-12-17 20:02:56,947 WARN clearConfigHistory start
+2020-12-21 09:52:07,540 INFO [capacityManagement] end correct usage, cost: 0s
 
-2020-12-17 20:02:56,947 INFO [capacityManagement] start correct usage
+2020-12-21 09:52:07,555 WARN clearConfigHistory start
 
-2020-12-17 20:02:56,948 INFO [capacityManagement] end correct usage, cost: 0s
+2020-12-21 13:15:07,303 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h17m7s575ms).
+
+2020-12-21 13:18:50,383 INFO [capacityManagement] start correct usage
+
+2020-12-21 13:18:50,388 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 13:18:50,400 WARN clearConfigHistory start
+
+2020-12-21 17:41:02,093 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18m24s697ms).
+
+2020-12-21 18:43:05,261 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m3s182ms).
+
+2020-12-21 18:47:19,139 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m13s878ms).
+
+2020-12-21 18:52:01,154 INFO [capacityManagement] start correct usage
+
+2020-12-21 18:52:01,157 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 18:52:01,179 WARN clearConfigHistory start
+
+2020-12-21 19:02:51,828 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s250ms).
+
+2020-12-21 19:05:33,427 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:05:33,428 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:05:33,448 WARN clearConfigHistory start
+
+2020-12-21 19:15:33,440 INFO [capacityManagement] start correct usage
+
+2020-12-21 19:15:33,441 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-12-21 19:15:33,459 WARN clearConfigHistory start
 

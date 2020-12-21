@@ -1,96 +1,1098 @@
-2020-12-17 18:32:56,691 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+2020-12-20 00:03:19,958 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 18:32:56,691 INFO listen for service meta change
+2020-12-20 00:03:19,958 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 18:32:59,297 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.0.103:8848], new: [192.168.0.103:8848]
+2020-12-20 00:03:19,958 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=769}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608393499130,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 18:40:50,931 INFO Client connection 192.168.0.103:9002 connect
+2020-12-20 00:03:19,958 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=745}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608393499130,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 18:41:09,393 INFO Client connection 192.168.0.103:9003 connect
+2020-12-20 00:03:24,884 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 18:43:28,651 WARN namespace : xdclass, [DEFAULT_GROUP@@cloud-alibaba-video-service] services are automatically cleaned
+2020-12-20 00:03:24,885 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 18:43:28,651 WARN namespace : xdclass, [DEFAULT_GROUP@@cloud-alibaba-order-service] services are automatically cleaned
+2020-12-20 00:16:13,620 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 18:50:48,792 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+2020-12-20 00:16:13,620 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 18:51:28,674 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-order-service] services are automatically cleaned
+2020-12-20 00:16:13,622 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 18:55:49,713 INFO Client connection 192.168.0.103:9003 connect
+2020-12-20 00:16:13,623 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 18:56:09,204 INFO Client connection 127.0.0.1:55224 connect
+2020-12-20 00:16:18,631 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=747}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394547009,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:02:30,400 INFO Client connection 192.168.0.103:59576 connect
+2020-12-20 00:16:18,631 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=771}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394547009,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:02:44,073 INFO Client connection 127.0.0.1:55224 disconnect, remove instances and subscribers
+2020-12-20 00:22:01,918 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 19:07:25,639 INFO Client connection 127.0.0.1:58533 connect
+2020-12-20 00:22:01,918 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 19:07:44,216 INFO Client connection 192.168.0.103:59576 disconnect, remove instances and subscribers
+2020-12-20 00:22:01,919 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=773}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394620243,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:11:26,045 INFO Client connection 127.0.0.1:56297 connect
+2020-12-20 00:22:01,919 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=749}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394620243,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:11:39,338 INFO Client connection 127.0.0.1:58533 disconnect, remove instances and subscribers
+2020-12-20 00:22:01,922 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 19:15:24,862 INFO Client connection 127.0.0.1:64091 connect
+2020-12-20 00:22:01,922 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 19:15:39,433 INFO Client connection 127.0.0.1:56297 disconnect, remove instances and subscribers
+2020-12-20 00:27:49,916 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 19:16:09,450 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+2020-12-20 00:27:49,916 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=775}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394967776,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:16:09,450 INFO Client connection 127.0.0.1:64091 disconnect, remove instances and subscribers
+2020-12-20 00:27:49,916 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 19:16:09,450 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+2020-12-20 00:27:49,916 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=751}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608394967776,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:16:23,215 INFO Client connection 192.168.0.103:9002 connect
+2020-12-20 00:27:49,922 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 19:16:31,097 INFO Client connection 192.168.0.103:9003 connect
+2020-12-20 00:27:49,923 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 19:16:41,484 INFO Client connection 127.0.0.1:62372 connect
+2020-12-20 00:33:37,937 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 19:21:04,599 INFO Client connection 127.0.0.1:62372 disconnect, remove instances and subscribers
+2020-12-20 00:33:37,937 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 19:43:35,244 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+2020-12-20 00:33:37,937 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=777}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608395315380,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:43:46,244 INFO Client connection 192.168.0.103:9002 connect
+2020-12-20 00:33:37,937 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=753}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608395315380,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:43:59,323 INFO Client connection 127.0.0.1:57399 connect
+2020-12-20 00:33:37,939 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 19:48:55,400 INFO Client connection 127.0.0.1:57399 disconnect, remove instances and subscribers
+2020-12-20 00:33:37,939 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 19:49:04,224 INFO Client connection 127.0.0.1:61968 connect
+2020-12-20 00:40:43,725 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 19:51:48,157 INFO Client connection 127.0.0.1:52988 connect
+2020-12-20 00:40:43,726 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 19:52:05,471 INFO Client connection 127.0.0.1:61968 disconnect, remove instances and subscribers
+2020-12-20 00:40:43,726 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=755}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608395742189,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:53:20,507 INFO Client connection 127.0.0.1:52988 disconnect, remove instances and subscribers
+2020-12-20 00:40:43,726 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=779}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608395742189,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:53:43,206 INFO Client connection 127.0.0.1:64108 connect
+2020-12-20 00:40:48,710 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 19:54:45,550 INFO Client connection 127.0.0.1:64108 disconnect, remove instances and subscribers
+2020-12-20 00:40:48,711 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 19:56:51,999 INFO Client connection 192.168.0.103:57353 connect
+2020-12-20 00:46:30,987 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 19:56:58,992 INFO Client connection 192.168.0.103:50962 connect
+2020-12-20 00:46:30,987 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 19:59:00,393 INFO Client connection 127.0.0.1:54649 connect
+2020-12-20 00:46:30,988 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=757}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396089248,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 19:59:12,422 INFO Client connection 127.0.0.1:61895 connect
+2020-12-20 00:46:30,988 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=781}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396089248,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 19:59:20,664 INFO Client connection 192.168.0.103:50962 disconnect, remove instances and subscribers
+2020-12-20 00:46:35,698 INFO Client connection 192.168.0.103:51967 connect
 
-2020-12-17 19:59:35,669 INFO Client connection 192.168.0.103:57353 disconnect, remove instances and subscribers
+2020-12-20 00:46:35,700 INFO Client connection 192.168.0.103:65359 connect
 
-2020-12-17 20:01:21,987 INFO Client connection 192.168.0.103:65359 connect
+2020-12-20 00:53:41,683 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=783}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396790110,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 20:01:24,620 INFO Client connection 192.168.0.103:56373 connect
+2020-12-20 00:53:41,683 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=759}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396790110,"instanceId":"192.168.0.103:9002"}
 
-2020-12-17 20:01:40,710 INFO Client connection 127.0.0.1:61895 disconnect, remove instances and subscribers
+2020-12-20 00:59:23,024 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
 
-2020-12-17 20:01:45,710 INFO Client connection 127.0.0.1:54649 disconnect, remove instances and subscribers
+2020-12-20 00:59:23,024 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
 
-2020-12-17 20:02:12,846 INFO Client connection 192.168.0.103:51967 connect
+2020-12-20 00:59:23,024 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=785}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396863290,"instanceId":"192.168.0.103:9003"}
 
-2020-12-17 20:02:35,742 INFO Client connection 192.168.0.103:56373 disconnect, remove instances and subscribers
+2020-12-20 00:59:23,024 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=761}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608396863290,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 00:59:23,028 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 00:59:23,028 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:05:11,034 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:05:11,034 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:05:11,035 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=787}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397208835,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:05:11,035 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=763}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397208835,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:05:11,040 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:05:11,042 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:10:59,040 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:10:59,040 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:10:59,040 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=765}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397556479,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:10:59,040 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=789}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397556479,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:10:59,051 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:10:59,052 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:18:04,794 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:18:04,794 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:18:04,794 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=767}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397983291,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:18:04,794 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=791}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608397983291,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:18:09,768 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:18:09,769 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:23:52,088 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:23:52,088 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:23:52,088 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=769}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608398330308,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:23:52,088 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=793}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608398330308,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:23:56,625 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:23:56,625 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:23:56,625 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:29:40,101 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:29:40,101 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:29:40,102 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=771}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608398677190,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:29:40,102 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=795}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608398677190,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:29:43,544 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:29:43,545 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:36:45,361 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=773}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399104317,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:36:45,361 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=797}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399104318,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:42:33,120 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:42:33,120 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:42:33,120 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=775}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399450855,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:42:33,120 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=799}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399450855,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:42:33,125 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:42:33,125 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:48:21,127 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:48:21,127 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:48:21,128 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=777}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399798566,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:48:21,128 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=801}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608399798579,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:48:21,139 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:48:21,142 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 01:55:26,786 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 01:55:26,786 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 01:55:26,786 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=803}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400224961,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 01:55:26,787 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=779}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400224961,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 01:55:31,770 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 01:55:31,771 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:01:14,065 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:01:14,065 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:01:14,065 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=781}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400571951,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:01:14,065 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=805}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400571951,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:01:18,713 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:01:18,714 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:07:02,071 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:07:02,071 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:07:02,072 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=807}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400919508,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:07:02,072 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=783}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608400919508,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:07:05,567 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:07:05,567 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:07:05,568 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:12:52,771 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=785}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401346291,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:12:52,771 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=809}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401346291,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:18:40,101 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:18:40,101 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:18:40,101 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=811}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401618283,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:18:40,102 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=787}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401618283,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:18:40,106 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:18:40,107 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:24:28,110 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:24:28,110 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:24:28,110 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=813}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401965553,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:24:28,110 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=789}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608401965553,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:24:28,112 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:24:28,112 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:31:33,832 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:31:33,832 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:31:33,832 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=815}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608402392303,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:31:33,832 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=791}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608402392303,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:31:38,814 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:31:38,815 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:37:21,100 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:37:21,100 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:37:21,100 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=817}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608402739314,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:37:21,100 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=793}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608402739314,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:37:25,651 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:37:25,651 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:37:25,651 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:43:09,130 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:43:09,130 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:43:09,131 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=795}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403086567,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:43:09,132 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=819}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403086567,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:43:12,510 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:43:12,511 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 02:50:14,883 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=821}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403512992,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:50:14,883 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=797}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403512992,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:56:03,131 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 02:56:03,131 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 02:56:03,132 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=823}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403860028,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 02:56:03,132 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=799}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608403860028,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 02:56:11,037 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 02:56:11,037 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:01:51,147 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:01:51,147 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:01:51,147 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=801}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404208597,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:01:51,148 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=825}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404208597,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:01:58,062 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:01:58,063 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:03:09,903 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:03:09,903 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:03:11,775 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:03:11,775 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:08:56,334 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:08:56,334 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:08:56,334 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=827}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404635038,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:08:56,334 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=803}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404635038,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:08:58,189 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:08:58,189 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:14:44,145 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:14:44,145 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:14:44,146 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=805}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404981494,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:14:44,146 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=829}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608404981494,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:14:45,118 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:14:45,118 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:14:45,118 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:20:32,129 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:20:32,129 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:20:32,130 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=807}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608405329237,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:20:32,130 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=831}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608405329237,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:20:32,132 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:20:32,134 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:27:37,280 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:27:37,280 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:27:37,280 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=809}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608405756031,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:27:37,280 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=833}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608405756016,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:27:42,277 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:27:42,278 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:33:25,152 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:33:25,152 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:33:25,152 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=811}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406102500,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:33:25,152 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=835}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406102483,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:33:29,153 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:33:29,153 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:39:13,138 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:39:13,138 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:39:13,139 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=813}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406450232,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:39:13,139 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=837}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406450242,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:39:16,100 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:39:16,100 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 03:39:16,100 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:46:18,341 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=839}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406876974,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:46:18,341 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=815}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608406876972,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:52:05,233 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=817}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407223467,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:52:05,233 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=841}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407223467,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:57:53,084 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 03:57:53,084 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 03:57:53,085 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=819}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407570388,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 03:57:53,085 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=843}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407570388,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 03:57:53,088 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 03:57:53,088 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:04:58,744 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:04:58,744 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:04:58,745 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=845}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407996951,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:04:58,745 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=821}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608407996951,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:05:03,725 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:05:03,726 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:10:46,074 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:10:46,074 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:10:46,075 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=847}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608408343896,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:10:46,075 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=823}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608408343896,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:10:50,561 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:10:50,567 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:16:34,043 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:16:34,043 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:16:34,050 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=825}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608408691139,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:16:34,050 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=849}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608408691139,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:16:37,533 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:16:37,534 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:23:39,755 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=851}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409117935,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:23:39,755 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=827}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409117935,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:29:27,078 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:29:27,078 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:29:27,079 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=829}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409464939,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:29:27,079 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=853}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409464939,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:29:27,081 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:29:27,082 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:35:15,058 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:35:15,058 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:35:15,059 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=831}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409812501,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:35:15,059 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=855}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608409812501,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:35:15,062 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:35:15,063 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:42:21,098 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:42:21,098 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:42:21,098 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=833}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410238950,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:42:21,098 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=857}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410238950,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:42:25,734 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:42:25,738 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:48:09,084 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:48:09,084 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:48:09,085 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=835}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410586182,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:48:09,085 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=859}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410586182,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:48:12,602 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:48:12,613 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 04:53:57,079 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 04:53:57,079 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 04:53:57,079 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=837}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410934494,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 04:53:57,079 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=861}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608410934494,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 04:53:59,588 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 04:53:59,601 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:01:02,805 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=863}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608411360948,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:01:02,805 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=839}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608411360948,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:06:51,086 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:06:51,086 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:06:51,086 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=865}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608411707954,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:06:51,086 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=841}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608411707943,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:06:59,058 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:06:59,059 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:12:43,056 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:12:43,056 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:12:46,008 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:12:46,009 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:13:56,809 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:13:56,809 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:13:59,732 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:13:59,732 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:19:45,120 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:19:45,120 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:19:45,122 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=843}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608412483983,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:19:45,122 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=867}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608412483983,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:19:46,758 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:19:46,758 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:19:46,759 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:25:33,114 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:25:33,114 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:25:33,115 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=869}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608412831026,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:25:33,115 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=845}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608412831026,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:25:33,681 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:25:33,681 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:31:21,100 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:31:21,100 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:31:21,100 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=871}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413178203,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:31:21,100 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=847}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413178202,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:31:21,104 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:31:21,104 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:38:26,321 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:38:26,321 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:38:26,321 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=849}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413605273,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:38:26,321 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=873}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413605302,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:38:31,294 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:38:31,295 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:44:13,131 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:44:13,131 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:44:13,131 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=851}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413951752,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:44:13,131 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=875}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608413951790,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:44:18,122 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:44:18,122 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:50:01,097 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 05:50:01,097 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 05:50:01,097 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=853}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608414298625,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:50:01,097 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=877}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608414298645,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 05:50:04,962 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 05:50:04,963 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 05:57:06,868 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=855}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608414724998,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 05:57:06,868 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=879}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608414724998,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:02:54,151 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:02:54,151 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:02:54,152 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=857}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415072013,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:02:54,152 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=881}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415072013,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:02:54,155 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:02:54,156 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:08:42,138 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:08:42,138 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:08:42,138 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=859}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415419236,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:08:42,139 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=883}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415419236,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:08:42,145 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:08:42,148 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:10:05,858 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:10:06,193 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:10:06,193 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:15:47,244 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:15:47,244 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:15:47,244 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=885}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415846354,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:15:47,244 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=861}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608415845992,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:15:52,223 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:15:52,580 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:21:34,208 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:21:34,208 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:21:34,209 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=863}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416192428,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:21:34,209 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=887}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416192772,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:21:39,178 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:21:39,540 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:27:22,147 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:27:22,148 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:27:22,148 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=889}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416539740,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:27:22,148 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=865}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416539578,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:27:26,052 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:27:26,416 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:34:27,843 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=867}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416966002,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:34:27,843 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=891}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608416966002,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:40:15,144 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:40:15,144 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:40:15,144 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=869}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608417312981,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:40:15,144 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=893}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608417312981,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:40:15,146 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:40:15,149 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:46:03,166 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:46:03,166 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:46:03,166 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=871}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608417660268,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:46:03,166 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=895}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608417660268,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:46:03,172 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:46:03,172 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:53:08,360 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:53:08,360 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:53:08,360 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=897}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418087040,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:53:08,360 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=873}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418087040,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:53:13,334 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 06:53:13,334 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:58:55,172 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 06:58:55,172 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 06:58:55,173 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=899}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418433542,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 06:58:55,173 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=875}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418433518,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 06:59:00,081 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 06:59:00,081 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:04:43,157 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:04:43,157 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:04:43,158 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=877}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418780303,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:04:43,158 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=901}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608418780328,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:04:46,329 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:04:46,329 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:04:46,329 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:08:20,202 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=879}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419207307,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:08:20,202 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=903}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419207307,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:14:06,613 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=905}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419345726,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:14:06,613 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=881}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419345726,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:19:54,152 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:19:54,153 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:19:54,154 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=883}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419692150,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:19:54,154 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=907}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608419692150,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:19:54,157 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:19:54,157 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:21:17,870 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:21:17,870 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:21:17,873 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:21:17,873 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:21:17,873 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:26:59,205 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:26:59,205 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:26:59,206 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=909}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420118019,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:26:59,206 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=885}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420118019,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:27:04,219 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:27:04,220 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:32:46,187 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:32:46,187 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:32:46,188 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=911}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420464380,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:32:46,188 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=887}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420464380,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:32:51,054 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:32:51,055 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:38:34,194 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:38:34,194 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:38:34,194 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=913}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420811623,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:38:34,194 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=889}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608420811609,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:38:37,912 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:38:37,912 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:45:39,254 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=891}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421238057,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:45:39,254 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=915}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421238057,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:51:26,188 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:51:26,188 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:51:26,188 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=917}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421584405,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:51:26,188 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=893}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421584394,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:51:26,192 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:51:26,192 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 07:57:14,151 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 07:57:14,151 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 07:57:14,153 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=895}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421931603,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 07:57:14,153 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=919}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608421931602,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 07:57:14,156 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 07:57:14,158 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:04:19,246 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:04:19,246 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:04:19,246 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=897}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608422358386,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:04:19,246 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=921}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608422358386,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:04:24,223 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:04:24,224 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:10:06,172 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:10:06,172 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:10:06,173 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=923}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608422704767,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:10:06,173 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=899}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608422704753,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:10:11,075 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:10:11,083 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:10:11,083 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:15:54,165 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:15:54,165 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:15:54,165 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=901}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423051647,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:15:54,165 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=925}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423051671,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:15:57,741 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:15:57,754 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:22:59,155 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=927}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423478041,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:22:59,155 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=903}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423478041,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:28:46,179 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:28:46,179 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:28:46,180 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=905}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423824335,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:28:46,180 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=929}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608423824335,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:28:46,182 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:28:46,183 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:34:34,170 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:34:34,170 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:34:34,170 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=907}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424171618,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:34:34,170 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=931}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424171618,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:34:34,176 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:34:34,178 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:41:39,284 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:41:39,284 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:41:39,292 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=933}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424598044,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:41:39,292 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=909}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424598044,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:41:44,267 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:41:44,283 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:47:26,196 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=911}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424944478,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:47:26,196 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=935}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608424944478,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:47:26,202 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+
+2020-12-20 08:47:26,202 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+
+2020-12-20 08:47:26,202 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:47:26,202 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:47:26,550 INFO Client connection 192.168.0.103:9003 connect
+
+2020-12-20 08:47:26,557 INFO Client connection 192.168.0.103:9002 connect
+
+2020-12-20 08:47:31,195 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:47:31,213 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:53:14,193 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 08:53:14,193 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 08:53:14,193 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=937}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608425291641,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 08:53:14,194 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=913}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608425291641,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 08:53:18,145 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 08:53:18,155 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 08:53:18,155 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:00:19,799 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=939}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608425718418,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:00:19,799 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=915}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608425718418,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:06:07,197 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:06:07,197 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:06:07,197 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=941}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426065361,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:06:07,198 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=917}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426065349,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:06:07,201 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:06:07,201 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 09:11:55,206 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:11:55,206 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:11:55,206 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=943}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426412637,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:11:55,206 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=919}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426412637,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:11:55,209 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:11:55,210 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 09:19:00,246 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:19:00,247 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:19:00,247 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=921}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426839054,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:19:00,247 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=945}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608426839054,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:19:05,206 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:19:05,207 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 09:24:47,210 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:24:47,210 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:24:47,210 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=947}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608427185386,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:24:47,210 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=923}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608427185386,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:24:51,393 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:24:51,393 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 09:30:35,210 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:30:35,210 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:30:35,210 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-video-service', ephemeral=true, revision=925}, ip: {"ip":"192.168.0.103","port":9002,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608427532646,"instanceId":"192.168.0.103:9002"}
+
+2020-12-20 09:30:35,210 INFO [AUTO-DELETE-IP] service: Service{namespace='3265aa65-dbbc-4d24-856f-bf5ab9b82e5f', group='DEFAULT_GROUP', name='cloud-alibaba-order-service', ephemeral=true, revision=949}, ip: {"ip":"192.168.0.103","port":9003,"healthy":false,"extendDatum":{"preserved.register.source":"SPRING_CLOUD","clusterName":"DEFAULT"},"lastHeartBeatTime":1608427532646,"instanceId":"192.168.0.103:9003"}
+
+2020-12-20 09:30:38,326 INFO Client connection 192.168.0.103:51967 connect
+
+2020-12-20 09:30:38,328 INFO Client connection 192.168.0.103:65359 connect
+
+2020-12-20 09:37:04,131 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+
+2020-12-20 09:37:04,131 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+
+2020-12-20 09:37:04,131 INFO Client connection 192.168.0.103:65359 disconnect, remove instances and subscribers
+
+2020-12-20 09:37:04,131 INFO Client connection 192.168.0.103:51967 disconnect, remove instances and subscribers
+
+2020-12-20 09:37:56,177 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-order-service] services are automatically cleaned
+
+2020-12-20 09:37:56,178 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-video-service] services are automatically cleaned
+
+2020-12-20 10:18:38,379 INFO Client connection 127.0.0.1:51326 connect
+
+2020-12-20 10:18:38,461 INFO Client connection 192.168.0.103:9002 connect
+
+2020-12-20 10:21:23,787 INFO Client connection 127.0.0.1:60706 connect
+
+2020-12-20 10:21:23,850 INFO Client connection 192.168.0.103:9003 connect
+
+2020-12-20 10:22:57,872 INFO Client connection 127.0.0.1:53597 connect
+
+2020-12-20 10:23:20,503 INFO Client connection 127.0.0.1:60706 disconnect, remove instances and subscribers
+
+2020-12-20 10:32:20,786 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+
+2020-12-20 10:32:20,786 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+
+2020-12-20 10:32:20,786 INFO Client connection 127.0.0.1:51326 disconnect, remove instances and subscribers
+
+2020-12-20 10:32:30,790 INFO Client connection 127.0.0.1:53597 disconnect, remove instances and subscribers
+
+2020-12-20 10:32:56,328 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-order-service] services are automatically cleaned
+
+2020-12-20 10:32:56,328 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-video-service] services are automatically cleaned
+
+2020-12-20 10:33:02,169 INFO Client connection 127.0.0.1:55895 connect
+
+2020-12-20 10:33:02,228 INFO Client connection 192.168.0.103:9003 connect
+
+2020-12-20 10:33:14,285 INFO Client connection 127.0.0.1:61300 connect
+
+2020-12-20 10:33:14,360 INFO Client connection 192.168.0.103:9002 connect
+
+2020-12-20 10:33:36,193 INFO Client connection 127.0.0.1:51870 connect
+
+2020-12-20 10:33:55,827 INFO Client connection 127.0.0.1:55895 disconnect, remove instances and subscribers
+
+2020-12-20 11:06:01,954 INFO Client connection 192.168.0.103:9003 disconnect, remove instances and subscribers
+
+2020-12-20 11:06:01,954 INFO Client connection 192.168.0.103:9002 disconnect, remove instances and subscribers
+
+2020-12-20 11:06:06,956 INFO Client connection 127.0.0.1:61300 disconnect, remove instances and subscribers
+
+2020-12-20 11:06:11,960 INFO Client connection 127.0.0.1:51870 disconnect, remove instances and subscribers
+
+2020-12-20 11:06:56,416 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-order-service] services are automatically cleaned
+
+2020-12-20 11:06:56,416 WARN namespace : 3265aa65-dbbc-4d24-856f-bf5ab9b82e5f, [DEFAULT_GROUP@@cloud-alibaba-video-service] services are automatically cleaned
 

@@ -23,3 +23,8 @@ mybatis:
 #        sql-fragments: org.apache.ibatis.logging.stdout.StdOutImpl
         log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
         map-underscore-to-camel-case: true
+
+cloud-alibaba-video-service:
+    ribbon:
+        # 默认的负载均衡策略：轮询
+        NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

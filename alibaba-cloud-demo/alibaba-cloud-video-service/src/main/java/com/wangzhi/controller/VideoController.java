@@ -25,4 +25,9 @@ public class VideoController {
     public String echo(@PathVariable String message) {
         return "[ECHO] : " + message;
     }
+
+    @PostMapping("/save")
+    public Integer saveVideo(@RequestBody Video video) {
+        return videoService.insert(video);
+    }
 }

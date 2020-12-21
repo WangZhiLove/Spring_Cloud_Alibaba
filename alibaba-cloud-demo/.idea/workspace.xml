@@ -4,61 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be583df-28dd-424b-9bb7-963cb72ce0d5" name="Default Changelist" comment="项目结构的创建">
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/controller/OrderController.java" afterDir="false" />
+    <list default="true" id="2be583df-28dd-424b-9bb7-963cb72ce0d5" name="Default Changelist" comment="提交nacos 注册与服务发现和负载均衡">
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/rest/VideoRestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/com/wangzhi/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/com/wangzhi/domain/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-user-service/src/main/java/com/wangzhi/AlibabaCloudUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-user-service/src/main/java/com/wangzhi/AlibabaCloudUserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-video-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-video-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/java/com/wangzhi/AlibabaCloudVideoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/java/com/wangzhi/AlibabaCloudVideoServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/java/com/wangzhi/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/java/com/wangzhi/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-video-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/AlibabaCloudOrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/AlibabaCloudOrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/java/com/wangzhi/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000029.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000030.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000032.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000034.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000035.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/MANIFEST-000033" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/OPTIONS-000028" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000029.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000030.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000032.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000034.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000035.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/MANIFEST-000033" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/OPTIONS-000028" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-dump.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log.2020-12-11.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-memory.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log.2020-12-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log.2020-12-12.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log.2020-12-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log.2020-12-12.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos_gc.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos_gc.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-event.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-event.log.2020-12-11.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log.2020-12-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log.2020-12-12.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-push.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log.2020-12-12.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log.2020-12-11.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log.2020-12-12.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/remote.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/logs/start.out" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/start.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log.2020-12-10.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log.2020-12-11.0" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -127,15 +111,38 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9003/api/v1/order/save" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 48,&#10;  &quot;title&quot;: &quot;redis入门实战&quot;,&#10;  &quot;summary&quot;: &quot;1.png&quot;,&#10;  &quot;cover_img&quot;: &quot;1.png&quot;,&#10;  &quot;price&quot;: 10.0,&#10;  &quot;create_time&quot;: &quot;2020-12-20 10:00:00&quot;,&#10;  &quot;point&quot;: 10.0&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://127.0.0.1:9003/get_by_id/40" />
+          <option name="urlBase" value="http://localhost:9003/api/v1/order/get_by_id/40" />
           <option name="urlPath" value="" />
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:9003/api/v1/order/get_by_id/40" />
+          <option name="urlBase" value="http://localhost:9003/api/v1/order/call/echo/123" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9003/get_by_id/40" />
           <option name="urlPath" value="" />
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
@@ -176,15 +183,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AlibabaCloudOrderServiceApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,20 +240,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.AlibabaCloudOrderServiceApplication" />
-      <item itemvalue="Spring Boot.AlibabaCloudUserServiceApplication" />
-      <item itemvalue="Spring Boot.AlibabaCloudVideoServiceApplication" />
       <item itemvalue="HTTP Request.generated-requests#8" />
       <item itemvalue="HTTP Request.generated-requests#2" />
       <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="HTTP Request.generated-requests#3" />
+      <item itemvalue="Spring Boot.AlibabaCloudOrderServiceApplication" />
+      <item itemvalue="Spring Boot.AlibabaCloudUserServiceApplication" />
+      <item itemvalue="Spring Boot.AlibabaCloudVideoServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests#3" />
         <item itemvalue="HTTP Request.generated-requests#2" />
         <item itemvalue="Spring Boot.AlibabaCloudVideoServiceApplication" />
         <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="HTTP Request.generated-requests#3" />
         <item itemvalue="HTTP Request.generated-requests#8" />
       </list>
     </recent_temporary>
@@ -262,7 +267,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608120028887</updated>
       <workItem from="1608120030170" duration="4132000" />
-      <workItem from="1608124236596" duration="6155000" />
+      <workItem from="1608124236596" duration="6711000" />
+      <workItem from="1608428242792" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构的创建">
       <created>1608125249283</created>
@@ -278,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608125352138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交nacos 注册与服务发现和负载均衡">
+      <created>1608206614791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608206614791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目结构的创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目结构的创建" />
+    <MESSAGE value="提交nacos 注册与服务发现和负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交nacos 注册与服务发现和负载均衡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
